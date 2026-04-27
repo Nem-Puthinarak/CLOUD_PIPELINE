@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send("<h1>It is working now.</h1>")
+    res.send("<h1>feature b branch</h1>")
 })
 
 app.post('/', (req, res)=> {
