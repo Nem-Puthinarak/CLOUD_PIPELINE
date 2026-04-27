@@ -4,6 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.send("<h1>feature b branch</h1>")
+    res.send("<h1>New branch</h1>")
 })
 
 app.post('/', (req, res)=> {
